@@ -75,4 +75,4 @@ class TestVarasto(unittest.TestCase):
         self.assertEqual(kaikki, 0)
 
     def test_str_oikein(self):
-        self.assertEqual(str(self.varasto), 'saldo = 0, vielä tilaa 0')
+        self.assertEqual(str(self.varasto), 'saldo = 0, vielä tilaa 10')
